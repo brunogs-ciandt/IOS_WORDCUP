@@ -31,7 +31,7 @@ class TeamTableViewCell: UITableViewCell {
     
     func setTeamDataControls(with game: Game) {
         imgHome.image = UIImage(named: "\(game.home).png")
-        imgHome.image = UIImage(named: "\(game.away).png")
+        imgVisit.image = UIImage(named: "\(game.away).png")
         
         lblHome.text = game.home
         lblVisit.text = game.away
